@@ -15,7 +15,7 @@ After you clone this git project, inside the UnitTestHTTPServer directory run:
 To pull in the CocoaHTTPServer code this depends on.
 
 This project creates a CocoaHTTPServer library that can be embedded in iPhone projects for unit tests.
-Include it in your test target as you would any other library dependancy (see below for detailed instructions).
+Include it in your test target as you would any other library dependency (see below for detailed instructions).
 
 Setting up your project
 -----------------------
