@@ -22,7 +22,7 @@ Setting up your project
 
 1. Drag the XCode project file into your test target.
 2. In the **Build Phases** pane of your test target's settings, add *UnitTestHTTPServer* as a dependancy. To do this, click the **+** symbol at the bottom of the **Target Dependancies** section of that screen. Select *UnitTestHTTPServer* from the list that comes up.
-3. In the **Link Binary With Libraries** section of that screen, add *UnitTestHTTPServer*. Do this by clicking the **+** symbol in that section and selecting *UnitTestHTTPServer* from that list.
+3. In the **Link Binary With Libraries** section of that screen, add *libUnitTestHTTPServer*. Do this by clicking the **+** symbol in that section and selecting *UnitTestHTTPServer* from that list.
 4. In XCode's **File** menu, select **Project Settings...** . In the dialog that pops up, click **Advanced...** and in the next screen make sure that **Unique** is selected.
 
 Your test target also needs to link against the following:
