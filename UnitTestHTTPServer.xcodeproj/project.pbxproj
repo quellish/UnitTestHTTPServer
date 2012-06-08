@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B8F5F7B1581C577009542C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8F5F7A1581C577009542C8 /* Foundation.framework */; };
+		1B8F5F811581C577009542C8 /* UnitTestHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F5F801581C577009542C8 /* UnitTestHTTPServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B8F5F771581C577009542C8 /* libUnitTestHTTPServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUnitTestHTTPServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8F5F7A1581C577009542C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B8F5F7E1581C577009542C8 /* UnitTestHTTPServer-Prefix.pch */ = {isa = PBXFileReference; path = "UnitTestHTTPServer-Prefix.pch"; sourceTree = "<group>"; };
+		1B8F5F7F1581C577009542C8 /* UnitTestHTTPServer.h */ = {isa = PBXFileReference; path = UnitTestHTTPServer.h; sourceTree = "<group>"; };
+		1B8F5F801581C577009542C8 /* UnitTestHTTPServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestHTTPServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B8F5F741581C577009542C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8F5F7B1581C577009542C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8F5F6C1581C577009542C8 = {
+			isa = PBXGroup;
+			children = (
+				1B8F5F7C1581C577009542C8 /* UnitTestHTTPServer */,
+				1B8F5F791581C577009542C8 /* Frameworks */,
+				1B8F5F781581C577009542C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B8F5F781581C577009542C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8F5F771581C577009542C8 /* libUnitTestHTTPServer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B8F5F791581C577009542C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B8F5F7A1581C577009542C8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B8F5F7C1581C577009542C8 /* UnitTestHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				1B8F5F7F1581C577009542C8 /* UnitTestHTTPServer.h */,
+				1B8F5F801581C577009542C8 /* UnitTestHTTPServer.m */,
+				1B8F5F7D1581C577009542C8 /* Supporting Files */,
+			);
+			path = UnitTestHTTPServer;
+			sourceTree = "<group>";
+		};
+		1B8F5F7D1581C577009542C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B8F5F7E1581C577009542C8 /* UnitTestHTTPServer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B8F5F751581C577009542C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B8F5F761581C577009542C8 /* UnitTestHTTPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8F5F841581C577009542C8 /* Build configuration list for PBXNativeTarget "UnitTestHTTPServer" */;
+			buildPhases = (
+				1B8F5F731581C577009542C8 /* Sources */,
+				1B8F5F741581C577009542C8 /* Frameworks */,
+				1B8F5F751581C577009542C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTestHTTPServer;
+			productName = UnitTestHTTPServer;
+			productReference = 1B8F5F771581C577009542C8 /* libUnitTestHTTPServer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B8F5F6E1581C577009542C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1B8F5F711581C577009542C8 /* Build configuration list for PBXProject "UnitTestHTTPServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B8F5F6C1581C577009542C8;
+			productRefGroup = 1B8F5F781581C577009542C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8F5F761581C577009542C8 /* UnitTestHTTPServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B8F5F731581C577009542C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8F5F811581C577009542C8 /* UnitTestHTTPServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B8F5F821581C577009542C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B8F5F831581C577009542C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B8F5F851581C577009542C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UnitTestHTTPServer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestHTTPServer/UnitTestHTTPServer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B8F5F861581C577009542C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UnitTestHTTPServer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestHTTPServer/UnitTestHTTPServer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B8F5F711581C577009542C8 /* Build configuration list for PBXProject "UnitTestHTTPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8F5F821581C577009542C8 /* Debug */,
+				1B8F5F831581C577009542C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8F5F841581C577009542C8 /* Build configuration list for PBXNativeTarget "UnitTestHTTPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8F5F851581C577009542C8 /* Debug */,
+				1B8F5F861581C577009542C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B8F5F6E1581C577009542C8 /* Project object */;
+}
