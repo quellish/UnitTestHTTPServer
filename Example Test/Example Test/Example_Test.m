@@ -1,13 +1,13 @@
 //
-//  UnitTestHTTPServer.m
-//  UnitTestHTTPServer
+//  Example_Test.m
+//  Example Test
 //
 //  Created by Dan Zinngrabe on 6/7/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "UnitTestHTTPServer.h"
+#import "Example_Test.h"
 
-@implementation UnitTestHTTPServer
+@implementation Example_Test
 
 @end

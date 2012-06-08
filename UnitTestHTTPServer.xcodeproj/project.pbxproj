@@ -25,7 +25,7 @@
 		1B8F60CC1581CC70009542C8 /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5F9D1581CC6F009542C8 /* HTTPMessage.h */; };
 		1B8F60CD1581CC70009542C8 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F5F9E1581CC6F009542C8 /* HTTPMessage.m */; };
 		1B8F60CE1581CC70009542C8 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5F9F1581CC6F009542C8 /* HTTPResponse.h */; };
-		1B8F60CF1581CC70009542C8 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5FA01581CC6F009542C8 /* HTTPServer.h */; };
+		1B8F60CF1581CC70009542C8 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5FA01581CC6F009542C8 /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8F60D01581CC70009542C8 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F5FA11581CC6F009542C8 /* HTTPServer.m */; };
 		1B8F60D11581CC70009542C8 /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5FA31581CC6F009542C8 /* MultipartFormDataParser.h */; };
 		1B8F60D21581CC70009542C8 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F5FA41581CC6F009542C8 /* MultipartFormDataParser.m */; };
@@ -354,6 +354,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8F60CF1581CC70009542C8 /* HTTPServer.h in Headers */,
 				1B8F60C11581CC70009542C8 /* DDData.h in Headers */,
 				1B8F60C31581CC70009542C8 /* DDNumber.h in Headers */,
 				1B8F60C51581CC70009542C8 /* DDRange.h in Headers */,
@@ -362,7 +363,6 @@
 				1B8F60CB1581CC70009542C8 /* HTTPLogging.h in Headers */,
 				1B8F60CC1581CC70009542C8 /* HTTPMessage.h in Headers */,
 				1B8F60CE1581CC70009542C8 /* HTTPResponse.h in Headers */,
-				1B8F60CF1581CC70009542C8 /* HTTPServer.h in Headers */,
 				1B8F60D11581CC70009542C8 /* MultipartFormDataParser.h in Headers */,
 				1B8F60D31581CC70009542C8 /* MultipartMessageHeader.h in Headers */,
 				1B8F60D51581CC70009542C8 /* MultipartMessageHeaderField.h in Headers */,
@@ -555,6 +555,7 @@
 				1B8F5F861581C577009542C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
