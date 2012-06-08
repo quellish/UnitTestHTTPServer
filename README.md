@@ -68,3 +68,5 @@ In your test, implement set up and tear down as follows:
 
 At this point you're ready to write your tests. Since the HTTP server's port can change (it is unlikely to be port 80), make sure your URLs use the port the server is listening on:
 `urlString = [[NSString alloc] initWithFormat:@"http://127.0.0.1:%d/index.html", [[self httpServer] listeningPort] ];`
+
+There is a very simple example test project in the **Example Test** directory. Run that to see the simplest possible test I could think of. All of the project settings outlined above are illustrated in that project. 
