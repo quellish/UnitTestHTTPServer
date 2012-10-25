@@ -19,7 +19,7 @@
 		1B8F60C61581CC70009542C8 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F5F971581CC6F009542C8 /* DDRange.m */; };
 		1B8F60C71581CC70009542C8 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5F981581CC6F009542C8 /* HTTPAuthenticationRequest.h */; };
 		1B8F60C81581CC70009542C8 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F5F991581CC6F009542C8 /* HTTPAuthenticationRequest.m */; };
-		1B8F60C91581CC70009542C8 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5F9A1581CC6F009542C8 /* HTTPConnection.h */; };
+		1B8F60C91581CC70009542C8 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5F9A1581CC6F009542C8 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8F60CA1581CC70009542C8 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F5F9B1581CC6F009542C8 /* HTTPConnection.m */; };
 		1B8F60CB1581CC70009542C8 /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5F9C1581CC6F009542C8 /* HTTPLogging.h */; };
 		1B8F60CC1581CC70009542C8 /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5F9D1581CC6F009542C8 /* HTTPMessage.h */; };
@@ -355,11 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8F60CF1581CC70009542C8 /* HTTPServer.h in Headers */,
+				1B8F60C91581CC70009542C8 /* HTTPConnection.h in Headers */,
 				1B8F60C11581CC70009542C8 /* DDData.h in Headers */,
 				1B8F60C31581CC70009542C8 /* DDNumber.h in Headers */,
 				1B8F60C51581CC70009542C8 /* DDRange.h in Headers */,
 				1B8F60C71581CC70009542C8 /* HTTPAuthenticationRequest.h in Headers */,
-				1B8F60C91581CC70009542C8 /* HTTPConnection.h in Headers */,
 				1B8F60CB1581CC70009542C8 /* HTTPLogging.h in Headers */,
 				1B8F60CC1581CC70009542C8 /* HTTPMessage.h in Headers */,
 				1B8F60CE1581CC70009542C8 /* HTTPResponse.h in Headers */,
