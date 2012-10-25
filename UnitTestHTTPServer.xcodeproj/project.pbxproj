@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2C9E771638F37000B3B7F2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E761638F37000B3B7F2 /* libxml2.dylib */; };
 		1B8F5F7B1581C577009542C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8F5F7A1581C577009542C8 /* Foundation.framework */; };
 		1B8F5F881581C59E009542C8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8F5F871581C59E009542C8 /* Security.framework */; };
-		1B8F5F8A1581C5A4009542C8 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8F5F891581C5A4009542C8 /* libxml2.2.7.3.dylib */; };
 		1B8F5F8C1581C5AB009542C8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8F5F8B1581C5AB009542C8 /* CFNetwork.framework */; };
 		1B8F60C11581CC70009542C8 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F5F921581CC6F009542C8 /* DDData.h */; };
 		1B8F60C21581CC70009542C8 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F5F931581CC6F009542C8 /* DDData.m */; };
@@ -72,10 +72,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B2C9E761638F37000B3B7F2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		1B8F5F771581C577009542C8 /* libUnitTestHTTPServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUnitTestHTTPServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8F5F7A1581C577009542C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B8F5F871581C59E009542C8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		1B8F5F891581C5A4009542C8 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
 		1B8F5F8B1581C5AB009542C8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		1B8F5F921581CC6F009542C8 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
 		1B8F5F931581CC6F009542C8 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
@@ -149,8 +149,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2C9E771638F37000B3B7F2 /* libxml2.dylib in Frameworks */,
 				1B8F5F8C1581C5AB009542C8 /* CFNetwork.framework in Frameworks */,
-				1B8F5F8A1581C5A4009542C8 /* libxml2.2.7.3.dylib in Frameworks */,
 				1B8F5F881581C59E009542C8 /* Security.framework in Frameworks */,
 				1B8F5F7B1581C577009542C8 /* Foundation.framework in Frameworks */,
 			);
@@ -180,8 +180,8 @@
 		1B8F5F791581C577009542C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B2C9E761638F37000B3B7F2 /* libxml2.dylib */,
 				1B8F5F8B1581C5AB009542C8 /* CFNetwork.framework */,
-				1B8F5F891581C5A4009542C8 /* libxml2.2.7.3.dylib */,
 				1B8F5F871581C59E009542C8 /* Security.framework */,
 				1B8F5F7A1581C577009542C8 /* Foundation.framework */,
 			);
