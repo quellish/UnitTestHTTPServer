@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F11C3020-3DB0-4A7B-A8F9-0CE8F5F730E4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UnitTestHTTPServer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1D5925C5-159A-4204-9FDA-961D34063348</key>
+		<string>https://github.com/quellish/UnitTestHTTPServer.git</string>
+		<key>AA7E44FD-4B8A-4526-9800-5CDA5BF4D0F0</key>
+		<string>https://github.com/robbiehanson/CocoaHTTPServer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UnitTestHTTPServer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1D5925C5-159A-4204-9FDA-961D34063348</key>
+		<string>../..</string>
+		<key>AA7E44FD-4B8A-4526-9800-5CDA5BF4D0F0</key>
+		<string>../../Externals</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/quellish/UnitTestHTTPServer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1D5925C5-159A-4204-9FDA-961D34063348</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA7E44FD-4B8A-4526-9800-5CDA5BF4D0F0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Externals</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D5925C5-159A-4204-9FDA-961D34063348</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UnitTestHTTPServer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
